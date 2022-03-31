@@ -265,9 +265,6 @@ img {
   border-radius: 0px 0px 4px 4px;
   border-top: none;
 }
-.section-title {
-  margin-bottom: 50px;
-}
 .social-link {
   display: flex;
   justify-content: center;
@@ -294,11 +291,6 @@ img {
 
 .clients {
   --card-item: 6;
-}
-
-.clients-list {
-  display: flex;
-  justify-content: space-between;
 }
 .clients-link {
   display: flex;
@@ -405,13 +397,9 @@ img {
 }
 .footer .logo {
   margin-bottom: 20px;
-  margin-right: 156px;
 }
 .address-list-item:not(:last-child) {
   margin-bottom: 9px;
-}
-.address-list {
-  margin-right: 70px;
 }
 .social-list {
   display: flex;
@@ -420,7 +408,7 @@ img {
 .social-item:not(:last-child) {
   margin-right: 10px;
 }
-.footer-item:not(:last-child)
+.footer-item:not(:last-child) {
   margin-right: 70px;
 }
 .footer .social-icon {
@@ -428,6 +416,7 @@ img {
 }
 .footer .social-link {
   background-color: rgba(255, 255, 255, 0.1);
+  color: white;
 }
 .footer .social-link:hover,
 .footer .social-link:focus {
